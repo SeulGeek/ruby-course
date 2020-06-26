@@ -1,4 +1,5 @@
 # Lesson 3: Prompt for Favorite Color
+val color = "yellow"
 puts "What is your favorite color?"
 color = gets.chop
 puts "Wow! My favortie color is #{color} also!"
@@ -9,9 +10,8 @@ if color == "blue"
 end
 
 # Lesson 5: Adding an Else Statement
-
-# if color == "blue"
-#     puts "Wow! My favorite color is #{color} also!"
-# else
-#     puts "I'm not a big fan of #{color}."
-# end
+if color == "blue"
+  puts "Wow! My favorite color is #{color} also!"
+else
+  puts "I'm not a big fan of #{color}."
+end
